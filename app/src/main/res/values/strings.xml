@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Anthony-PaulFontana_CENG319Lab1_Ex1</string>
+
+    <string-array name="activity">
+    <item>AIActivity</item>
+    <item>VRActivity</item>
+</string-array>
+
+    <string name="onCreateCycle">onCreate()</string>
+    <string name="onStartCycle">onStart()</string>
+    <string name="onResumeCycle">onResume()</string>
+    <string name="onRestartCycle">onRestart()</string>
+    <string name="onPauseCycle">onPause()</string>
+    <string name="onStopCycle">onStop()</string>
+    <string name="onDestroyCycle">onDestroy()</string>
+
+    <string name="actMain">MainActivity</string>
+
+</resources>
