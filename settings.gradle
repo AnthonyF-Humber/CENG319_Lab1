@@ -1,0 +1,3 @@
+include ':SimpleFragmentsExample'
+include ':app'
+rootProject.name = "Anthony-PaulFontana_CENG319Lab1_Ex1"
