@@ -64,7 +64,6 @@ public class MainActivity extends AppCompatActivity {
     public void onStart()
     {
         super.onStart();
-        Toast.makeText(MainActivity.this,"Im in onStart()",Toast.LENGTH_SHORT).show();
        fragment.displayLifeCycle(getString(R.string.onStartCycle));
         Log.d(tag, "In the onStart() event");
     }

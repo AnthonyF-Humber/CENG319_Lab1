@@ -43,7 +43,7 @@ public class AI_Activity extends AppCompatActivity {
     {
         super.onStart();
         Toast.makeText(AI_Activity.this,"Im in onStart()",Toast.LENGTH_SHORT).show();
-        AIActivityCycle("onStart()");
+        AIActivityCycle(getString(R.string.onStartCycle));
 
         Log.d(tag, "In the onStart() event");
     }

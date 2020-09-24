@@ -2,7 +2,7 @@
     <string name="app_name">Anthony-PaulFontana_CENG319Lab1_Ex1</string>
 
     <string-array name="activity">
-        <item>AIActetetetetetivity</item>
+        <item>AIActivity</item>
         <item>VRActivity</item>
     </string-array>
 
