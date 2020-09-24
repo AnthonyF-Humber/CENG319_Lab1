@@ -40,11 +40,10 @@ public class secondFragment extends Fragment {
 
 
     public void displayLifeCycle(String message){
-        //String actMain = getString(R.string.actMain);
         TextView cycleText = (TextView)getActivity().findViewById(R.id.cycleText);
 
         if(message.equalsIgnoreCase(getString(R.string.onPauseCycle)) || message.equalsIgnoreCase(getString(R.string.onRestartCycle))){
-            cycleText.setText("");
+
             cycleText.setText("Main Activity");
         }
         cycleText.append("\n" + message);
