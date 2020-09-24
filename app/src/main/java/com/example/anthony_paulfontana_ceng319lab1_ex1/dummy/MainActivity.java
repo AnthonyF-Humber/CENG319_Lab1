@@ -1,5 +1,6 @@
 package com.example.anthony_paulfontana_ceng319lab1_ex1.dummy;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
@@ -41,11 +42,11 @@ public class MainActivity extends AppCompatActivity {
             public void onItemClick(AdapterView<?> adapterView, View view, int i, long l) {
                 String selected_item = String.valueOf(adapterView.getItemAtPosition(i));
                 Toast.makeText(MainActivity.this,selected_item,Toast.LENGTH_SHORT).show();
-               // if (i == 0){
-                 //   Intent intent = new Intent(view.getContext(), AI_Activity.class);
-                   // startActivity(intent);
+                if (i == 0){
+                    Intent intent = new Intent(view.getContext(), AI_Activity.class);
+                  startActivity(intent);
 
-               // }
+               }
             }
         });
 
