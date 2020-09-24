@@ -31,6 +31,7 @@ public class MainActivity extends AppCompatActivity {
         fragment.displayLifeCycle(createMsg);
 
 
+
         listView = (ListView) findViewById(R.id.listView);
 
         ArrayAdapter<String> mAdapter = new ArrayAdapter<String>(MainActivity.this,

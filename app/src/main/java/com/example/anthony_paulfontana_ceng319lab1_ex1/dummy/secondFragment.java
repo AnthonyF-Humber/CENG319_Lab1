@@ -49,9 +49,6 @@ public class secondFragment extends Fragment {
         }
         cycleText.append("\n" + message);
 
-
-
-
     }
 
 
