@@ -5,6 +5,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import androidx.fragment.app.Fragment;
 
@@ -30,6 +31,7 @@ public class secondFragment extends Fragment {
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
 
+        Toast.makeText(getActivity(),getString(R.string.onCreateViewCycle),Toast.LENGTH_SHORT).show();
         return inflater.inflate(R.layout.fragment_second, container, false);
     }
 
@@ -38,6 +40,12 @@ public class secondFragment extends Fragment {
         super.onCreate(savedInstanceState);
     }
 
+
+    public  void onStart(){
+        Toast.makeText(getActivity(),getString(R.string.onStartCycle),Toast.LENGTH_SHORT).show();
+        super.onStart();
+
+    }
 
     public void displayLifeCycle(String message){
         TextView cycleText = (TextView)getActivity().findViewById(R.id.cycleText);

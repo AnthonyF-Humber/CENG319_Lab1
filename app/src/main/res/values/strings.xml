@@ -13,6 +13,7 @@
     <string name="onPauseCycle">onPause()</string>
     <string name="onStopCycle">onStop()</string>
     <string name="onDestroyCycle">onDestroy()</string>
+    <string name="onCreateViewCycle">onCreateView()</string>
 
     <string name="actMain">MainActivity</string>
     <string name="title_activity_a_i_">AI_Activity</string>

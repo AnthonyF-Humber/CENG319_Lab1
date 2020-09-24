@@ -11,7 +11,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".dummy.AI_Activity"></activity>
+        <activity android:name=".dummy.VR_Activity"></activity>
+        <activity android:name=".dummy.AI_Activity" />
         <activity android:name=".dummy.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

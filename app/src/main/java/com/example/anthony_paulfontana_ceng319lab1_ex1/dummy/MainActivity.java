@@ -25,10 +25,9 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
 
-        String createMsg = getString(R.string.onCreateCycle);
 
         fragment = (secondFragment)getSupportFragmentManager().findFragmentById(R.id.fragmentBottom);
-        fragment.displayLifeCycle(createMsg);
+        fragment.displayLifeCycle(getString(R.string.onStartCycle));
 
 
 
@@ -46,12 +45,14 @@ public class MainActivity extends AppCompatActivity {
                 if (i == 0){
                     Intent intent = new Intent(view.getContext(), AI_Activity.class);
                   startActivity(intent);
-
                }
+
+                if(i==1){
+                    Intent intent = new Intent(view.getContext(), VR_Activity.class);
+                    startActivity(intent);
+                }
             }
         });
-
-        //fragment = (secondFragment)getSupportFragmentManager().findFragmentById(R.id.fragmentBottom);
 
         listView.setAdapter(mAdapter);
         Log.d(tag, "In the onCreate() event");
