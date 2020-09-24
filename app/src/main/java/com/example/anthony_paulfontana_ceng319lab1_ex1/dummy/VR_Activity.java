@@ -30,7 +30,7 @@ public class VR_Activity extends AppCompatActivity {
 
 
         if(message.equalsIgnoreCase(getString(R.string.onPauseCycle)) || message.equalsIgnoreCase(getString(R.string.onRestartCycle))){
-            ((TextView)findViewById(R.id.vrTextView)).setText("VR Activity");
+            ((TextView)findViewById(R.id.vrTextView)).setText(R.string.VR_Activity);
         }
         ((TextView)findViewById(R.id.vrTextView)).append("\n " + message);
 

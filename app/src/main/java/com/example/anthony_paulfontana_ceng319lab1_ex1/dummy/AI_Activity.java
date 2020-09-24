@@ -28,7 +28,7 @@ public class AI_Activity extends AppCompatActivity {
 
 
         if(message.equalsIgnoreCase(getString(R.string.onPauseCycle)) || message.equalsIgnoreCase(getString(R.string.onRestartCycle))){
-            ((TextView)findViewById(R.id.aiTextView)).setText("AI Activity");
+            ((TextView)findViewById(R.id.aiTextView)).setText(R.string.AI_Activity);
         }
         ((TextView)findViewById(R.id.aiTextView)).append("\n " + message);
 

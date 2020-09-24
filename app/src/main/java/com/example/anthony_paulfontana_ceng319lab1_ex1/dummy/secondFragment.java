@@ -52,7 +52,7 @@ public class secondFragment extends Fragment {
 
         if(message.equalsIgnoreCase(getString(R.string.onPauseCycle)) || message.equalsIgnoreCase(getString(R.string.onRestartCycle))){
 
-            cycleText.setText("Main Activity");
+            cycleText.setText(R.string.Main_Activity);
         }
         cycleText.append("\n" + message);
 

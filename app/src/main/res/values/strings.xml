@@ -6,6 +6,9 @@
         <item>VRActivity</item>
     </string-array>
 
+    <string name="Main_Activity">Main Activity</string>
+    <string name="AI_Activity">AI Activity</string>
+    <string name="VR_Activity">VR Activity</string>
     <string name="onCreateCycle">onCreate()</string>
     <string name="onStartCycle">onStart()</string>
     <string name="onResumeCycle">onResume()</string>
@@ -15,7 +18,6 @@
     <string name="onDestroyCycle">onDestroy()</string>
     <string name="onCreateViewCycle">onCreateView()</string>
 
-    <string name="actMain">MainActivity</string>
     <string name="title_activity_a_i_">AI_Activity</string>
     <!--
     This string is used for square devices and overridden by hello_world in
