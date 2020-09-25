@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Anthony-PaulFontana_CENG319Lab1_Ex1</string>
+
+    <string-array name="activity">
+        <item>ActivitéIA</item>
+        <item>Activité VR</item>
+    </string-array>
+
+    <string name="Main_Activity">Activité principale</string>
+    <string name="AI_Activity">Activité IA</string>
+    <string name="VR_Activity">Activité VR</string>
+    <string name="onCreateCycle">surCréer()</string>
+    <string name="onStartCycle">surDébut()</string>
+    <string name="onResumeCycle">surReprendre()</string>
+    <string name="onRestartCycle">surRedémarrer()</string>
+    <string name="onPauseCycle">surPause()</string>
+    <string name="onStopCycle">surArrêtez()</string>
+    <string name="onDestroyCycle">surDétruire()</string>
+    <string name="onCreateViewCycle">surCréerUneVue()</string>
+
+    <string name="title_activity_a_i_">ActivitéIA</string>
+
+</resources>
